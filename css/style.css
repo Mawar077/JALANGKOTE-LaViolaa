@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #88B44E;
+    --primary: #FFF2B2;
     --secondary: #FB9F38;
     --light: #F5F8F2;
-    --dark: #252C30;
+    --dark: #FFD400;
 }
 
 .back-to-top {
@@ -167,7 +167,7 @@
     bottom: 0;
     display: flex;
     align-items: center;
-    background: rgba(136, 180, 78, .7);
+    background: #FFD400(136, 180, 78, .7);
     z-index: 1;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(#FFD400(136, 180, 78, .7), #FFD400(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -240,7 +240,7 @@
     bottom: -13px;
     left: calc(25% - 13px);
     background: var(--dark);
-    border: 10px solid #FFFFFF;
+    border: 10px solid #FFD400;
     border-radius: 28px;
 }
 
@@ -498,7 +498,7 @@
 }
 
 .copyright {
-    background: #252525;
+    background: #FFF2B2;
 }
 
 .copyright a:hover {
