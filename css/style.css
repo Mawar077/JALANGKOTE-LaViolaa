@@ -447,7 +447,7 @@
 
 .testimonial-carousel .owl-dot {
     position: relative;
-    display: inline-block;
+    display: flex;
     margin: 0 5px;
     width: 15px;
     height: 15px;
